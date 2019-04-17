@@ -1,0 +1,23 @@
+"title":"iFrame MicroApp {
+    "app": {
+        "tag": "iframe-microapp",
+        "bootstrapModule": "app/iframe-microapp.js",
+        "iconImage": "resources/iframe-microapp.png",
+        "version": "1.0.0"
+    },
+    "widgets": [
+        {
+            "tag": "iframe-microapp",
+            "bootstrapModule": "widgets/iframe-microapp/iframe-microapp.module.js",
+            "title": "iFrame MicroApp",
+            "iconImage": "resouces/custom-widget-icon.png",
+            "version": 1.0.0"
+        }
+    ],
+    "permissions": [
+        "Create",
+        "Read",
+        "Update",
+        "Delete"
+    ]
+}
