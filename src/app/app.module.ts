@@ -16,9 +16,9 @@ import { Injector } from '@angular/core';
 
 export class AppModule {
   constructor(private injector: Injector) {
-    if (!customElements.get('iframe-microapp')) {
-      const iframeMicroAppElement = createCustomElement(AppComponent, {injector});
-      customElements.define('iframe-microapp', iframeMicroAppElement);
+    if (!customElements.get('scythe-microapp')) {
+      const scytheMicroAppElement = createCustomElement(AppComponent, {injector});
+      customElements.define('scythe-microapp', scytheMicroAppElement);
     }
   }
   ngDoBootstrap(){}

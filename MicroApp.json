@@ -1,15 +1,15 @@
-"title":"iFrame MicroApp {
+"title":"Scythe MicroApp {
     "app": {
-        "tag": "iframe-microapp",
-        "bootstrapModule": "app/iframe-microapp.js",
-        "iconImage": "resources/iframe-microapp.png",
+        "tag": "scythe-microapp",
+        "bootstrapModule": "app/scythe-microapp.js",
+        "iconImage": "resources/scythe-microapp.png",
         "version": "1.0.0"
     },
     "widgets": [
         {
-            "tag": "iframe-microapp",
-            "bootstrapModule": "widgets/iframe-microapp/iframe-microapp.module.js",
-            "title": "iFrame MicroApp",
+            "tag": "scythe-microapp",
+            "bootstrapModule": "widgets/scythe-microapp/scythe-microapp.module.js",
+            "title": "Scythe MicroApp",
             "iconImage": "resouces/custom-widget-icon.png",
             "version": 1.0.0"
         }
